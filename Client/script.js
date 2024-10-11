@@ -78,7 +78,7 @@ function getWeather() {
         alert('Please enter a city');
         return;
     }
-    // Construction of URL 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
+    // Construction of URL 
     const currentWeatherUrl = `/api?q=${city}`;
     const forecastUrl = `/api?q=${city}`;
     
