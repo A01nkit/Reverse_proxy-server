@@ -21,7 +21,7 @@ app.use(limiter)
 app.set('trust proxy', 1)
 
 //Set static folder
-app.use(express.static('client'))
+app.use(express.static('Client'))
 
 //Routes
 app.use('/api', route);
